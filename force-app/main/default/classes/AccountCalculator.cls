@@ -1,6 +1,8 @@
 public class AccountCalculator {
   /**
    * @name Calculate
+   *
+   * Description: Calculate the Account opportunities
    */
   public static void Calculate(List<Account> accs) {
     Map<Id, Account> toUpdate = new Map<Id, Account>(accs);
